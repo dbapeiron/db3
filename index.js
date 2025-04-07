@@ -158,16 +158,16 @@ bot.start(async (ctx) => {
   const isAdminStatus = (ctx.from.id);
   const isOwnerStatus = (ctx.from.id);
 
-  const mainMenuMessage = ``` CRUSHERBUG\n╭━━━━⭓ADD TOKEN MENU 🤓<\n" +
-                   "┃▢ /cekoken  → Lihat daftar token\n" +
-                   "┃▢ /addtoken   → Tambah token baru\n" +
-                   "┃▢ /deltoken   → Hapus token\n" +
-                   "╰━━━━━━━━━━━━━━━━━━⭓\n\n" +
-                   "╭━━━━⭓RESELLER MENU🚀\n" +
-                   "┃▢ /listreseller  → Lihat daftar reseller\n" +
-                   "┃▢ /addreseller <id>  → Tambah reseller n" +
-                   "┃▢ /delreseller <id>  → Hapus reseller \n" +
-                   "╰━━━━━━━━━━━━━━━━━━⭓```;
+  const mainMenuMessage = ``` CRUSHERBUG\n╭━━━━⭓ADD TOKEN MENU \n
+                   ┃▢ /cekoken  → Lihat daftar token\n
+                   ┃▢ /addtoken   → Tambah token baru\n
+                   ┃▢ /deltoken   → Hapus token\n 
+                   ╰━━━━━━━━━━━━━━━━━━⭓\n\n
+                   ╭━━━━⭓RESELLER MENU🚀\n" +
+                   ┃▢ /listreseller  → Lihat daftar reseller\n
+                   ┃▢ /addreseller   → Tambah reseller \n
+                   ┃▢ /delreseller   → Hapus reseller \n
+                   ╰━━━━━━━━━━━━━━━━━━⭓```;
 
   const mainKeyboard = [
     [{
