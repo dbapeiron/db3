@@ -9,7 +9,7 @@ const ADMIN_FILE = "admin.json";
 const RESELLER_FILE = "ress.json";
 const GITHUB_REPO = "dbapeiron/db3";
 const GITHUB_FILE_PATH = "token.json";
-const GITHUB_PAT = "ghp_"; 
+const GITHUB_PAT = "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"; 
 
 
 const GITHUB_RAW_URL = `https://raw.githubusercontent.com/${GITHUB_REPO}/main/${GITHUB_FILE_PATH}?timestamp=${Date.now()}`;
