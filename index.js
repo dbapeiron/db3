@@ -10,7 +10,7 @@ const bot = new Telegraf(BOT_TOKEN);
 // Konfigurasi GitHub
 const GITHUB_USERNAME = "dbapeiron";
 const GITHUB_REPO = "db3";
-const GITHUB_FILE = "BOTTOKEN.json";
+const GITHUB_FILE = "xtravfree.json";
 const GITHUB_TOKEN = "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";
 
 let resellerUsers = {};
